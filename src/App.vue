@@ -12,6 +12,8 @@ export default {
   components: {
     TheHeader,
   },
+
+
 };
 </script>
 
@@ -24,8 +26,6 @@ export default {
   box-sizing: border-box;
 }
 
-#app > div {
-  // height: 100vh !important;
-}
+
 </style>
 

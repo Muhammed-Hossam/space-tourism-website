@@ -10,7 +10,7 @@
       >
         <li class="flex flex-row sm:flex-col">
           <router-link to="/home" class="py-9 peer" :class="routerClass"
-            ><span class="lg:inline md:hidden">00</span> Home</router-link
+            ><span class="hidden lg:inline">00</span> Home</router-link
           >
           <span
             class="block w-auto h-1 peer-hover:bg-gray-400 peer-hover:transition-all ease-in-out duration-500 delay-150"
@@ -18,7 +18,7 @@
         </li>
         <li class="flex flex-row sm:flex-col">
           <router-link to="/destination" class="py-9 peer" :class="routerClass"
-            ><span class="lg:inline md:hidden">01</span> Destination</router-link
+            ><span class="hidden lg:inline">01</span> Destination</router-link
           >
           <span
             class="block w-auto h-1 peer-hover:bg-gray-400 peer-hover:transition-all ease-in-out duration-500 delay-150"
@@ -26,7 +26,7 @@
         </li>
         <li class="flex flex-row sm:flex-col">
           <router-link to="/crew" class="py-9 peer" :class="routerClass"
-            ><span class="lg:inline md:hidden">02</span> Crew</router-link
+            ><span class="hidden lg:inline">02</span> Crew</router-link
           >
           <span
             class="block w-auto h-1 peer-hover:bg-gray-400 peer-hover:transition-all ease-in-out duration-500 delay-150"
@@ -34,7 +34,7 @@
         </li>
         <li class="flex flex-row sm:flex-col">
           <router-link to="/technology" class="py-9 peer" :class="routerClass">
-            <span class="lg:inline md:hidden">03</span> Technology
+            <span class="hidden lg:inline">03</span> Technology
           </router-link>
           <span class="block w-auto h-1 peer-hover:bg-gray-400 peer-hover:transition-all ease-in-out duration-500 delay-150"></span>
         </li>
@@ -73,7 +73,7 @@ export default {
     },
     routerClass() {
       return {
-        "pb-0": this.clicked,
+        "pb-0": this.clicked
       }
     }
   },

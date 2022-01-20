@@ -1,11 +1,17 @@
 <template>
-    <div class="crew relative h-screen bg-cover bg-no-repeat z-0"></div>
+    <div class="crew relative h-screen bg-cover bg-no-repeat z-0">
+      <page-heading num="02" heading="Meet Your Crew"></page-heading>
+    </div>
 </template>
 
 
 <script>
+import PageHeading from '../components/PageHeading.vue';
 export default {
-  name: "Crew"
+  name: "Crew",
+  components: {
+    PageHeading
+  }
 }
 </script>
 
